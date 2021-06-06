@@ -20,7 +20,7 @@
     "unified": "9.2.0"
   },
   "devDependencies": {
-    "autoprefixer": "10.2.4",
+    "autoprefixer": "10.2.6",
     "postcss": "8.2.4",
     "tailwindcss": "2.0.2"
   },

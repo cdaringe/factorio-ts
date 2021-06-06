@@ -21,7 +21,7 @@
     "@semantic-release/exec": "5.0.0",
     "@semantic-release/github": "7.2.0",
     "@semantic-release/release-notes-generator": "9.0.1",
-    "@types/bluebird": "3.5.33",
+    "@types/bluebird": "3.5.35",
     "@types/json-schema": "7.0.7",
     "@types/node-fetch": "2.5.7",
     "@types/turndown": "5.0.0",

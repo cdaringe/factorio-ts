@@ -193,7 +193,29 @@
     lodash "^4.17.4"
     parse-json "^5.0.0"
 
-"@semantic-release/github@7.2.0", "@semantic-release/github@^7.0.0":
+"@semantic-release/github@7.2.3":
+  version "7.2.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-7.2.3.tgz#20a83abd42dca43d97f03553de970eac72856c85"
+  integrity sha512-lWjIVDLal+EQBzy697ayUNN8MoBpp+jYIyW2luOdqn5XBH4d9bQGfTnjuLyzARZBHejqh932HVjiH/j4+R7VHw==
+  dependencies:
+    "@octokit/rest" "^18.0.0"
+    "@semantic-release/error" "^2.2.0"
+    aggregate-error "^3.0.0"
+    bottleneck "^2.18.1"
+    debug "^4.0.0"
+    dir-glob "^3.0.0"
+    fs-extra "^10.0.0"
+    globby "^11.0.0"
+    http-proxy-agent "^4.0.0"
+    https-proxy-agent "^5.0.0"
+    issue-parser "^6.0.0"
+    lodash "^4.17.4"
+    mime "^2.4.3"
+    p-filter "^2.0.0"
+    p-retry "^4.0.0"
+    url-join "^4.0.0"
+
+"@semantic-release/github@^7.0.0":
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/@semantic-release/github/-/github-7.2.0.tgz#925f3efd91adabfc4bbe0de24b79fe1a8a38b4e2"
   integrity sha512-tMRnWiiWb43whRHvbDGXq4DGEbKRi56glDpXDJZit4PIiwDPX7Kx3QzmwRtDOcG+8lcpGjpdPabYZ9NBxoI2mw==
@@ -234,7 +256,23 @@
     semver "^7.1.2"
     tempy "^1.0.0"
 
-"@semantic-release/release-notes-generator@9.0.1", "@semantic-release/release-notes-generator@^9.0.0":
+"@semantic-release/release-notes-generator@9.0.3":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-9.0.3.tgz#d541221c6512e9619f25ba8079527e34288e6904"
+  integrity sha512-hMZyddr0u99OvM2SxVOIelHzly+PP3sYtJ8XOLHdMp8mrluN5/lpeTnIO27oeCYdupY/ndoGfvrqDjHqkSyhVg==
+  dependencies:
+    conventional-changelog-angular "^5.0.0"
+    conventional-changelog-writer "^4.0.0"
+    conventional-commits-filter "^2.0.0"
+    conventional-commits-parser "^3.0.0"
+    debug "^4.0.0"
+    get-stream "^6.0.0"
+    import-from "^3.0.0"
+    into-stream "^6.0.0"
+    lodash "^4.17.4"
+    read-pkg-up "^7.0.0"
+
+"@semantic-release/release-notes-generator@^9.0.0":
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-9.0.1.tgz#732d285d103064f2a64f08a32031551ebb4f918b"
   integrity sha512-bOoTiH6SiiR0x2uywSNR7uZcRDl22IpZhj+Q5Bn0v+98MFtOMhCxFhbrKQjhbYoZw7vps1mvMRmFkp/g6R9cvQ==
@@ -1920,6 +1958,15 @@ from2@^2.1.0, from2@^2.3.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
+fs-extra@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
+  integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs-extra@^9.0.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
@@ -2254,10 +2301,17 @@ hosted-git-info@^2.1.4, hosted-git-info@^2.7.1, hosted-git-info@^2.8.8:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.8.tgz#7539bd4bc1e0e0a895815a2e0262420b12858488"
   integrity sha512-f/wzC2QaWBs7t9IYqB4T3sR1xviIViXJRJTWBlx2Gf3g0Xi5vI7Yy4koXQ1c9OYDGHN9sBy1DQ2AB8fqZBWhUg==
 
-hosted-git-info@^3.0.0, hosted-git-info@^3.0.6:
+hosted-git-info@^3.0.6:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-3.0.7.tgz#a30727385ea85acfcee94e0aad9e368c792e036c"
   integrity sha512-fWqc0IcuXs+BmE9orLDyVykAG9GJtGLGuZAAqgcckPgv5xad4AcXGIv8galtQvlwutxSlaMcdw7BUtq2EIvqCQ==
+  dependencies:
+    lru-cache "^6.0.0"
+
+hosted-git-info@^4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-4.0.2.tgz#5e425507eede4fea846b7262f0838456c4209961"
+  integrity sha512-c9OGXbZ3guC/xOlCg1Ci/VgWlwsqDv1yMQL1CWqXDL0hDjXuNcq0zuR4xqPSuasI3kqFDhqSyTjREz5gzq0fXg==
   dependencies:
     lru-cache "^6.0.0"
 
@@ -2460,6 +2514,14 @@ into-stream@^5.0.0:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/into-stream/-/into-stream-5.1.1.tgz#f9a20a348a11f3c13face22763f2d02e127f4db8"
   integrity sha512-krrAJ7McQxGGmvaYbB7Q1mcA+cRwg9Ij2RfWIeVesNBgVDZmzY/Fa4IpZUT3bmdRzMzdf/mzltCG2Dq99IZGBA==
+  dependencies:
+    from2 "^2.3.0"
+    p-is-promise "^3.0.0"
+
+into-stream@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/into-stream/-/into-stream-6.0.0.tgz#4bfc1244c0128224e18b8870e85b2de8e66c6702"
+  integrity sha512-XHbaOAvP+uFKUFsOgoNPRjLkwB+I22JFPFe5OjTkQ0nwgj6+pSjb4NmB6VMxaPshLiOf+zcpOCBQuLwC1KHhZA==
   dependencies:
     from2 "^2.3.0"
     p-is-promise "^3.0.0"
@@ -3140,6 +3202,11 @@ lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.4:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+
 log-symbols@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-4.0.0.tgz#69b3cc46d20f448eccdb75ea1fa733d9e821c920"
@@ -3232,22 +3299,22 @@ map-obj@^4.0.0:
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-4.1.0.tgz#b91221b542734b9f14256c0132c897c5d7256fd5"
   integrity sha512-glc9y00wgtwcDmp7GaE/0b0OnxpNJsVf3ael/An6Fe2Q51LLwN1er6sdomLRzz5h0+yMpiYLhWYF5R7HeqVd4g==
 
-marked-terminal@^4.0.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-4.1.0.tgz#01087372d3636dc7cb286475a1d6147187f500e0"
-  integrity sha512-5KllfAOW02WS6hLRQ7cNvGOxvKW1BKuXELH4EtbWfyWgxQhROoMxEvuQ/3fTgkNjledR0J48F4HbapvYp1zWkQ==
+marked-terminal@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/marked-terminal/-/marked-terminal-4.1.1.tgz#34a6f063cd6cfe26bffaf5bac3724e24242168a9"
+  integrity sha512-t7Mdf6T3PvOEyN01c3tYxDzhyKZ8xnkp8Rs6Fohno63L/0pFTJ5Qtwto2AQVuDtbQiWzD+4E5AAu1Z2iLc8miQ==
   dependencies:
     ansi-escapes "^4.3.1"
     cardinal "^2.1.1"
-    chalk "^4.0.0"
+    chalk "^4.1.0"
     cli-table "^0.3.1"
     node-emoji "^1.10.0"
     supports-hyperlinks "^2.1.0"
 
-marked@^1.0.0:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-1.2.7.tgz#6e14b595581d2319cdcf033a24caaf41455a01fb"
-  integrity sha512-No11hFYcXr/zkBvL6qFmAp1z6BKY3zqLMHny/JN/ey+al7qwCM2+CMBL9BOgqMxZU36fz4cCWfn2poWIf7QRXA==
+marked@^2.0.0:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.7.tgz#bc5b857a09071b48ce82a1f7304913a993d4b7d1"
+  integrity sha512-BJXxkuIfJchcXOJWTT2DOL+yFWifFv2yGYOUzvXg8Qz610QKw+sHCvTMYwA+qWGhlA2uivBezChZ/pBy1tWdkQ==
 
 matcher@^3.0.0:
   version "3.0.0"
@@ -4732,10 +4799,10 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-semantic-release@17.3.7:
-  version "17.3.7"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.3.7.tgz#a54a8ccf443c7389706c9e3c52f2a9433e0581f7"
-  integrity sha512-mMWaxykq1+mZu7hvUjEdUhJXb+BvEJhcuy15hog3+8XWZqmxRfcdlW/aTBav8rWUZ16bEevWVc6qHwsq3aPGiQ==
+semantic-release@17.4.3:
+  version "17.4.3"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-17.4.3.tgz#e01b2d0c0adaf5a6cc427359f1df755d1e908927"
+  integrity sha512-lTOUSrkbaQ+TRs3+BmtJhLtPSyiO7iTGmh5SyuEFqNO8HQbQ4nzXg4UlPrDQasO/C0eFK/V0eCbOzJdjtKBOYw==
   dependencies:
     "@semantic-release/commit-analyzer" "^8.0.0"
     "@semantic-release/error" "^2.2.0"
@@ -4752,10 +4819,10 @@ semantic-release@17.3.7:
     get-stream "^6.0.0"
     git-log-parser "^1.2.0"
     hook-std "^2.0.0"
-    hosted-git-info "^3.0.0"
-    lodash "^4.17.15"
-    marked "^1.0.0"
-    marked-terminal "^4.0.0"
+    hosted-git-info "^4.0.0"
+    lodash "^4.17.21"
+    marked "^2.0.0"
+    marked-terminal "^4.1.1"
     micromatch "^4.0.2"
     p-each-series "^2.1.0"
     p-reduce "^2.0.0"
